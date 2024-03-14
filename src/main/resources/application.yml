@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    password: ABC123ssi
+    url: jdbc:mysql://localhost:3366/swarm_db
+    username: ssi_maroof
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+server:
+  error:
+    include-message: always
+    include-binding-errors: never
+    include-stacktrace: never
+    include-exception: false
+
+
